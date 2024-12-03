@@ -1,0 +1,12 @@
+#anchor {
+    -fx-background-image: url('resources/fundoTelaInicial.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-image: url('resources/fundoTelaInicial.jpg');
+}
+.title {
+    -fx-font-family: 'TT Phobos Inline';
+    -fx-text-fill: cyan;
+}
