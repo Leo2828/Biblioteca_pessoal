@@ -1,12 +1,15 @@
 #anchor {
-    -fx-background-image: url('resources/fundoTelaInicial.jpg');
+    -fx-background-image: url('../resources/fundoTelaInicial.jpg');
     -fx-background-repeat: no-repeat;
     -fx-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat, repeat;
-    background-image: url('resources/fundoTelaInicial.jpg');
+}
+@font-face {
+    font-family: 'Phobos';
+    src: url(../resources/fonts/TTPhobosInline.otf) format('opentype');
 }
 .title {
-    -fx-font-family: 'TT Phobos Inline';
-    -fx-text-fill: cyan;
+    -fx-font-family: 'Phobos';
+    -fx-text-fill: #fff4d6;
+    -fx-font-size: 40px;
+    -fx-font-weight: 900;
 }
