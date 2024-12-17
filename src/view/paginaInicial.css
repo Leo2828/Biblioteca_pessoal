@@ -13,3 +13,8 @@
     -fx-font-size: 40px;
     -fx-font-weight: 900;
 }
+.mainBtn {
+    -fx-background-color: #fff4d6;
+    -fx-font-size: 15px;
+    -fx-font-weight: 900;
+}

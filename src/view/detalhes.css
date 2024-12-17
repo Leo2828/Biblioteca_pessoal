@@ -1,0 +1,14 @@
+#anchor {
+    -fx-background-image: url('../resources/fundoDetalhes.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#divDetalhes {
+    -fx-background-color: fff4d6;
+}
+
+.orgBtn{
+    -fx-background-color: #fff4d6;
+    -fx-font-size: 12px;
+    -fx-font-weight: 900;
+}

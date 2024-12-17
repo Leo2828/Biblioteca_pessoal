@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="740.0" stylesheets="@detalhes.css" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaDetalhesController">
+   <children>
+      <VBox id="divDetalhes" fx:id="divDetalhes" layoutX="28.0" layoutY="25.0" prefHeight="351.0" prefWidth="466.0" stylesheets="@detalhes.css">
+         <children>
+            <HBox prefHeight="352.0" prefWidth="466.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" style="-fx-border-color: black;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="60.0" text="ANO" textAlignment="JUSTIFY" />
+                        <VBox fx:id="divAno" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="165.0" style="-fx-border-color: black;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="165.0" text="NOME" textAlignment="JUSTIFY" />
+                        <VBox fx:id="divNome" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="130.0" style="-fx-border-color: black;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="130.0" text="AUTOR" textAlignment="JUSTIFY" />
+                        <VBox fx:id="divAutor" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="351.0" prefWidth="84.0" style="-fx-border-color: black;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="111.0" text="GÊNERO" textAlignment="JUSTIFY" />
+                        <VBox fx:id="divAno11" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="345.0" prefWidth="27.0" style="-fx-border-color: black;">
+                     <children>
+                        <Label contentDisplay="CENTER" prefHeight="31.0" prefWidth="27.0" />
+                        <VBox alignment="TOP_CENTER" prefHeight="331.0" prefWidth="27.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button layoutX="508.0" layoutY="25.0" mnemonicParsing="false" onAction="#orgAutor" prefHeight="50.0" prefWidth="111.0" styleClass="orgBtn" text="Organizar por autor" wrapText="true" />
+      <Button layoutX="509.0" layoutY="95.0" mnemonicParsing="false" onAction="#orgAno" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Organizar por ano" wrapText="true" />
+   </children>
+</AnchorPane>

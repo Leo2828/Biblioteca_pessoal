@@ -2,6 +2,27 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "java",
+			"name": "Main",
+			"request": "launch",
+			"mainClass": "Main",
+			"projectName": "Biblioteca_pessoal_1af0487e"
+		},
+		{
+			"type": "java",
+			"name": "Appa",
+			"request": "launch",
+			"mainClass": "Appa",
+			"projectName": "Biblioteca_pessoal_1af0487e"
+		},
+		{
+			"type": "java",
+			"name": "App",
+			"request": "launch",
+			"mainClass": "controller.App",
+			"projectName": "Biblioteca_pessoal_1af0487e"
+		},
+		{
 			"vmArgs": "--module-path \"c:/JavaFX/lib\" --add-modules javafx.controls,javafx.fxml",
 			"type": "java",
 			"name": "Launch Current File",
