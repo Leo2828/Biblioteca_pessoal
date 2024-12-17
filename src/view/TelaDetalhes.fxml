@@ -34,13 +34,13 @@
                   <VBox alignment="TOP_CENTER" prefHeight="351.0" prefWidth="84.0" style="-fx-border-color: black;">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="111.0" text="GÊNERO" textAlignment="JUSTIFY" />
-                        <VBox fx:id="divAno11" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                        <VBox fx:id="divGenero" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
                      </children>
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="345.0" prefWidth="27.0" style="-fx-border-color: black;">
                      <children>
                         <Label contentDisplay="CENTER" prefHeight="31.0" prefWidth="27.0" />
-                        <VBox alignment="TOP_CENTER" prefHeight="331.0" prefWidth="27.0" />
+                        <VBox fx:id="divDelete" alignment="TOP_CENTER" prefHeight="331.0" prefWidth="27.0" />
                      </children>
                   </VBox>
                </children>

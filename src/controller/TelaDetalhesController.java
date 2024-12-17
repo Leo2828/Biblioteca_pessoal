@@ -28,7 +28,7 @@ public class TelaDetalhesController {
     private VBox divNome;
 
     @FXML
-    private VBox deleteDiv;
+    private VBox divDelete;
 
     List<Livro> livros = Arrays.asList(
         new Livro("wqeaaaaaa", "vccxvsla1", "a", 2),
@@ -50,8 +50,9 @@ public class TelaDetalhesController {
             Label labelGenero = new Label(livro.getGenero());
             divGenero.getChildren().addAll(labelGenero);
 
-            Button btn = new Button("Apagar");
-            deleteDiv.setId(livro.getNome()); 
+            Button btnDelete = new Button("X");
+            divDelete.setId(livro.getNome()); 
+            divDelete.getChildren().addAll(btnDelete);
         }
     }
     @FXML
