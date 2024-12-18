@@ -54,6 +54,6 @@
       </VBox>
       <Button layoutX="535.0" layoutY="25.0" mnemonicParsing="false" onAction="#orgAutor" prefHeight="50.0" prefWidth="111.0" styleClass="orgBtn" text="Organizar por autor" wrapText="true" />
       <Button layoutX="536.0" layoutY="96.0" mnemonicParsing="false" onAction="#orgAno" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Organizar por ano" wrapText="true" />
-      <Button layoutX="536.0" layoutY="167.0" mnemonicParsing="false" onAction="#orgAno" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Adicionar livro" wrapText="true" />
+      <Button layoutX="536.0" layoutY="167.0" mnemonicParsing="false" onAction="#adicionarLivro" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Adicionar livro" wrapText="true" />
    </children>
 </AnchorPane>

@@ -12,3 +12,16 @@
     -fx-font-size: 12px;
     -fx-font-weight: 900;
 }
+
+#AnchorForm {
+    -fx-background-image: url('../resources/fundoForm.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.title {
+    -fx-font-family: 'Phobos';
+    -fx-text-fill: #fff4d6;
+    -fx-font-size: 30px;
+    -fx-font-weight: 900;
+}

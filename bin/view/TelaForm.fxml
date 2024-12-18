@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorForm" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="740.0" stylesheets="@detalhes.css" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaFormController">
+   <children>
+      <TextField fx:id="autorField" layoutX="156.0" layoutY="123.0" />
+      <TextField fx:id="nomeField" layoutX="156.0" layoutY="321.0" />
+      <TextField fx:id="generoField" layoutX="521.0" layoutY="321.0" />
+      <TextField fx:id="anoField" layoutX="521.0" layoutY="123.0" />
+      <Label layoutX="190.0" layoutY="65.0" styleClass="title" stylesheets="@detalhes.css" text="Autor" />
+      <Label layoutX="564.0" layoutY="65.0" prefHeight="45.0" prefWidth="63.0" styleClass="title" stylesheets="@detalhes.css" text="Ano" wrapText="true" />
+      <Label layoutX="185.0" layoutY="260.0" prefHeight="45.0" prefWidth="91.0" styleClass="title" stylesheets="@detalhes.css" text="Nome" wrapText="true" />
+      <Label layoutX="542.0" layoutY="260.0" prefHeight="45.0" prefWidth="107.0" styleClass="title" stylesheets="@detalhes.css" text="Gênero" wrapText="true" />
+      <Button layoutX="329.0" layoutY="206.0" mnemonicParsing="false" onAction="#enviarBtn" prefHeight="45.0" prefWidth="82.0" styleClass="orgBtn" stylesheets="@detalhes.css" text="Enviar" />
+   </children>
+</AnchorPane>

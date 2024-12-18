@@ -20,8 +20,6 @@ public class TelaPrincipalController {
             stage.setTitle("Detalhes");
             stage.show();
             
-            // Stage currentStage = (Stage) telaDetalhes.getScene().getWindow();
-            // currentStage.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
