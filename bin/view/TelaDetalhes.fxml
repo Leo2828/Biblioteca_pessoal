@@ -6,48 +6,54 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
 <AnchorPane id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="740.0" stylesheets="@detalhes.css" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaDetalhesController">
    <children>
-      <VBox id="divDetalhes" fx:id="divDetalhes" layoutX="28.0" layoutY="25.0" prefHeight="351.0" prefWidth="466.0" stylesheets="@detalhes.css">
+      <VBox id="divDetalhes" fx:id="divDetalhes" layoutX="28.0" layoutY="25.0" prefHeight="351.0" prefWidth="495.0" stylesheets="@detalhes.css">
          <children>
-            <HBox prefHeight="352.0" prefWidth="466.0">
+            <HBox prefHeight="351.0" prefWidth="508.0">
                <children>
                   <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" style="-fx-border-color: black;">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="60.0" text="ANO" textAlignment="JUSTIFY" />
-                        <VBox fx:id="divAno" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                        <VBox fx:id="divAno" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" style="-fx-spacing: 6;" />
                      </children>
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="165.0" style="-fx-border-color: black;">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="165.0" text="NOME" textAlignment="JUSTIFY" />
-                        <VBox fx:id="divNome" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                        <VBox fx:id="divNome" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" style="-fx-spacing: 6;" />
                      </children>
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="130.0" style="-fx-border-color: black;">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="130.0" text="AUTOR" textAlignment="JUSTIFY" />
-                        <VBox fx:id="divAutor" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                        <VBox fx:id="divAutor" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" style="-fx-spacing: 6;" />
                      </children>
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="351.0" prefWidth="84.0" style="-fx-border-color: black;">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="111.0" text="GÊNERO" textAlignment="JUSTIFY" />
-                        <VBox fx:id="divGenero" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" />
+                        <VBox fx:id="divGenero" alignment="TOP_CENTER" prefHeight="319.0" prefWidth="128.0" style="-fx-spacing: 6;" />
                      </children>
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="345.0" prefWidth="27.0" style="-fx-border-color: black;">
                      <children>
                         <Label contentDisplay="CENTER" prefHeight="31.0" prefWidth="27.0" />
-                        <VBox fx:id="divDelete" alignment="TOP_CENTER" prefHeight="331.0" prefWidth="27.0" />
+                        <VBox fx:id="divDelete" alignment="TOP_CENTER" prefHeight="325.0" prefWidth="40.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="351.0" prefWidth="29.0" style="-fx-border-color: black;">
+                     <children>
+                        <Label contentDisplay="CENTER" prefHeight="31.0" prefWidth="27.0" />
+                        <VBox fx:id="divEdit" alignment="TOP_CENTER" prefHeight="325.0" prefWidth="40.0" />
                      </children>
                   </VBox>
                </children>
             </HBox>
          </children>
       </VBox>
-      <Button layoutX="508.0" layoutY="25.0" mnemonicParsing="false" onAction="#orgAutor" prefHeight="50.0" prefWidth="111.0" styleClass="orgBtn" text="Organizar por autor" wrapText="true" />
-      <Button layoutX="509.0" layoutY="95.0" mnemonicParsing="false" onAction="#orgAno" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Organizar por ano" wrapText="true" />
+      <Button layoutX="535.0" layoutY="25.0" mnemonicParsing="false" onAction="#orgAutor" prefHeight="50.0" prefWidth="111.0" styleClass="orgBtn" text="Organizar por autor" wrapText="true" />
+      <Button layoutX="536.0" layoutY="96.0" mnemonicParsing="false" onAction="#orgAno" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Organizar por ano" wrapText="true" />
+      <Button layoutX="536.0" layoutY="167.0" mnemonicParsing="false" onAction="#orgAno" prefHeight="50.0" prefWidth="109.0" styleClass="orgBtn" text="Adicionar livro" wrapText="true" />
    </children>
 </AnchorPane>
